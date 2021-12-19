@@ -3,6 +3,7 @@ import java.rmi.registry.RegistryHandler;
 import com.extrablocksmod.gamearoo.tabs.*;
 
 import com.extrablocksmod.gamearoo.proxy.CommonProxy;
+import com.extrablocksmod.gamearoo.recipes.SmeltingRecipes;
 import com.extrablocksmod.gamearoo.util.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -35,7 +36,7 @@ public class extrablocksmod {
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		
+		SmeltingRecipes.init();
 	}
 	
 	@EventHandler
