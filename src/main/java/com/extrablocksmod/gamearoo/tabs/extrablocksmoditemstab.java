@@ -1,22 +1,21 @@
 package com.extrablocksmod.gamearoo.tabs;
 
-import com.extrablocksmod.gamearoo.init.BlockInit;
 import com.extrablocksmod.gamearoo.init.ItemInit;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
-public class extrablocksmodtab extends CreativeTabs {
+public class extrablocksmoditemstab extends CreativeTabs {
 	
-	public extrablocksmodtab(String label) {
-		super("extrablocksmodtab");
+	public extrablocksmoditemstab(String label) {
+		super("extrablocksmoditemstab");
 		this.setBackgroundImageName("extrablocksmod.png");
 		
 	}
 	
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(BlockInit.RUBY_BLOCK);
+		return new ItemStack(ItemInit.ruby);
 	}
 	
 	

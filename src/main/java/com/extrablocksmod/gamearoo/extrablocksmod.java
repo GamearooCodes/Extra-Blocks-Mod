@@ -26,6 +26,7 @@ public class extrablocksmod {
 	public static CommonProxy proxy;
 	
 	public static final CreativeTabs extrablocksmodtab = new extrablocksmodtab("extrablocksmodtab");
+	public static final CreativeTabs extrablocksmoditemstab = new extrablocksmoditemstab("extrablocksmoditemstab");
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)

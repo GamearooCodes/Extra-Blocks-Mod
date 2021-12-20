@@ -1,8 +1,10 @@
 //Items
 item.ruby.name=Ruby
+item.coal_ingot.name=Coal Ingot
 
 //Blocks
 tile.ruby_block.name=Ruby Block
 
 //tabs
-itemGroup.extrablocksmodtab=Extra Blocks Mod Tab
+itemGroup.extrablocksmodtab=Extra Blocks Mod Tab (Blocks)
+itemGroup.extrablocksmoditemstab=Extra Blocks Mod Tab (Items)
