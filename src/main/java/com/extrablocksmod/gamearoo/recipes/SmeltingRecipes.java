@@ -9,5 +9,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class SmeltingRecipes {
 	public static void init() {
 		GameRegistry.addSmelting(new ItemStack(Blocks.CRAFTING_TABLE), new ItemStack(ItemInit.ruby), 0.5F);
+		
 	}
 }
