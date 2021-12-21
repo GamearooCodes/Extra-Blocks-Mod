@@ -2,6 +2,8 @@ package com.extrablocksmod.gamearoo.util.handlers;
 
 import com.extrablocksmod.gamearoo.init.BlockInit;
 import com.extrablocksmod.gamearoo.init.ItemInit;
+import com.extrablocksmod.gamearoo.recipes.CraftingRecipes;
+import com.extrablocksmod.gamearoo.recipes.SmeltingRecipes;
 import com.extrablocksmod.gamearoo.util.interfaces.IHasModel;
 
 import net.minecraft.block.Block;
@@ -55,6 +57,8 @@ public class RegistryHandler
     
     public static void initRegistries()
     {
+    	SmeltingRecipes.init();
+    	CraftingRecipes.init();
         
     }
     
