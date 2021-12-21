@@ -3,6 +3,7 @@ import java.rmi.registry.RegistryHandler;
 import com.extrablocksmod.gamearoo.tabs.*;
 
 import com.extrablocksmod.gamearoo.proxy.CommonProxy;
+import com.extrablocksmod.gamearoo.recipes.CraftingRecipes;
 import com.extrablocksmod.gamearoo.recipes.SmeltingRecipes;
 import com.extrablocksmod.gamearoo.util.Reference;
 
@@ -38,6 +39,7 @@ public class extrablocksmod {
 	public void init(FMLInitializationEvent event)
 	{
 		SmeltingRecipes.init();
+		CraftingRecipes.init();
 	}
 	
 	@EventHandler
